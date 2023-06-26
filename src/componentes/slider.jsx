@@ -1,7 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css'
 
-function Slider() {
+function Slider(props) {
     return (
         <div style={{marginTop: "150px"}}>
             
@@ -25,15 +25,15 @@ function Slider() {
                     <div className="carousel-inner rounded-5 ">
 
                         <div className="carousel-item active">
-                            <img src="./img/carrusel1.png" className="d-block" alt=""/>
+                            <img src={props.imagen1} className="d-block" alt=""/>
                         </div>
 
                         <div className="carousel-item">
-                            <img src="./img/carrusel2.png" className="d-block" alt=""/>
+                            <img src={props.imagen2} className="d-block" alt=""/>
                         </div>
 
                         <div className="carousel-item">
-                            <img src="./img/carrusel3.png" className="d-block" alt=""/>
+                            <img src={props.imagen3} className="d-block" alt=""/>
                         </div>
 
                     </div>

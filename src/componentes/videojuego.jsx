@@ -1,7 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css'
 
-function Videojuego() {
+function Videojuego(props) {
   return (
     <div>
       <div className="container">
@@ -23,14 +23,7 @@ function Videojuego() {
           <div className="col-sm">
 
             <p>
-              Running Pan es el juego que se creara a partir de nuestra marca, es un juego endless running en donde
-              tendremos que hacer la mayor cantidad de puntos.
-              Habran numerosos obstaculos en el camino, tendras que esquivarlos para no perder, tiene una historia (tipo
-              comic) en donde se mostrara el porque del acontecimiento de este juego, se esta pensando implementarlo en 2D
-              y 3D.
-              Los controles seran snecillos, saltar y agacharse como cualquuiera otro endless running, algunos ejemplos
-              que se podrian decir de este tipo de juego serian, Bana Kong, Vector o Subway Surfers.
-              Muy pronto para las pantallas Running Pan de Taiga.
+            {props.juego}
 
             </p>
 

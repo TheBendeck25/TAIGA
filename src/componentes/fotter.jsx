@@ -1,7 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css'
 
-function Fotter() {
+function Fotter(props) {
     return (
         <div>
 
@@ -11,7 +11,7 @@ function Fotter() {
 
                     <div className="col-xs-12 col-md-6 col-lg-3">
                         <a className="navbar-brand sticky" href="#"><img style={{ width: "160px", height: "80px" }}
-                            src="./img/logoenblanco.png" alt="" /></a>
+                            src={props.imagen} alt="" /></a>
                     </div>
 
                     <div className="col-xs-12 col-md-6 col-lg-3">

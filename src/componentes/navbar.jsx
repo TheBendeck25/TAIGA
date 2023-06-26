@@ -1,7 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css'
 
-function Navbar() {
+function Navbar(props) {
   return (
     <>
       <div className="overflow-hidden">
@@ -12,7 +12,7 @@ function Navbar() {
             <div className="container d-flex justify-content-between">
 
               <a className="navbar-brand sticky" href="#"><img style={{width: "160px", height: "80px"}}
-                src="./img/logoenblanco.png" alt="" /></a>
+                src={props.imageninicio} alt="" /></a>
 
               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

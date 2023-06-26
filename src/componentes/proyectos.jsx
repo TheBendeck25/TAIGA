@@ -1,7 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css'
 
-function Proyecto() {
+function Proyecto(props) {
     return (
         <div>
             <div className="container">
@@ -28,13 +28,7 @@ function Proyecto() {
                         <div>
 
                             <p className='d-flex justify-content-center p-2 col-sm'>
-                                Taiga es un proyecto enfocado a la conservacion de zonas "verdes" o "boscosas", nos centramos en el bosque
-                                de Monte Carlo ubicado en Manrique Jardin para ser enfasis en el poco cuidado que recibe este y fomentar el
-                                cuidado de los bosques.
-                                Queremos incentivar a futuras generaciones para que cuiden el medio ambiente y los arboles que son nuetra
-                                principal fuente de oxigeno en el ambiente, esto se tiene pensado en mensajes, campañas y directos habando
-                                sobre los impactos ambientales que generan desastres tales como deforestacion, incendios, catastrofes
-                                naturales, etc.
+                                {props.proyecto}
                             </p>
 
                         </div>
