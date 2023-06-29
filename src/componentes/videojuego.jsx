@@ -63,6 +63,15 @@ function Videojuego(props) {
 
         <div className="py-4">
 
+          <div className='d-flex justify-content-center btn btn-primary btn-lg btn-success'>
+          <a className='text-light' href="https://bendeck.itch.io/running-pan">JUEGA AQUÍ</a>
+            
+          </div>
+
+          <br />
+          <br />
+          
+
           <hr />
 
         </div>
@@ -87,8 +96,7 @@ function Videojuego(props) {
 
                     <h5 className="card-title">Lalo</h5>
 
-                    <p className="card-text">El diseñador del grupo, su fuerte es la creacion de personajes, paisajes y mucho
-                      mas, tiene muy bien estructurada su linea en diseño grafico.
+                    <p className="card-text">{props.textbendeck}
                     </p>
 
                   </div>
@@ -107,8 +115,7 @@ function Videojuego(props) {
 
                     <h5 className="card-title">Razor</h5>
 
-                    <p className="card-text">Lider de grupo y programador, su fuerte es la creacion de contenido en el ambito de
-                      programacion de paginas web, diseño de landing pages y uso de variables.
+                    <p className="card-text">{props.textmiguel}
 
                     </p>
 

@@ -44,7 +44,7 @@ function Integrantes(props) {
 
                             <div className="card">
 
-                                <img src="./img/miguell.jpg" className="card-img-top" alt="..." />
+                                <img src="miguell.jpg" className="card-img-top" alt="..." />
 
                                 <div className="card-body">
 

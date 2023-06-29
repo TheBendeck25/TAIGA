@@ -45,7 +45,7 @@ function Proyecto(props) {
 
                         <div className="col-sm justify-content-center">
                             <h2 className="d-flex col-sm justify-content-center">
-                                Manual Pich
+                                Manual Pitch
                             </h2>
                             <iframe className="scribd_iframe_embed pt-5" title="Manual Pich"
                                 src="https://www.scribd.com/embeds/651858139/content?start_page=1&view_mode=scroll&access_key=key-kA1clls1BRIuVXxd5crD"
